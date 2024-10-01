@@ -10,7 +10,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items:  flex-start;
+  align-items:  center;
   padding: 5px;
   gap: 60px;
   width: 100%;
@@ -22,14 +22,19 @@ body {
 .nav-box {
   width: 25%;
   height: 53px;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 32px;
   line-height: 37px;
   display: flex;
   align-items: center;
-  color: #5732A7;
   float: left;
   justify-content: center;
+}
+
+a {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 32px;
+  color: #5732A7;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 h1 {
@@ -53,8 +58,6 @@ p {
   display: flex;
   font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
-  width: 450px;
-  height: 450px;
 }
 
 .button {
